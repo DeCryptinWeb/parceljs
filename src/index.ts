@@ -1,4 +1,6 @@
 import {some} from './mod'
+
 console.log("log coming from index.js")
-some({first: 2, second: "ewkef"})
+
+some({first: 2, second: "string"})
  
