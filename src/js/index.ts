@@ -1,3 +1,6 @@
 import {sayHello} from './module'
 
-console.log(sayHello({firstName: 'John', lastName: 'Doe'}))
+const firstName = 'John'
+const lastName = 'Doe'
+
+console.log(sayHello({firstName, lastName}))

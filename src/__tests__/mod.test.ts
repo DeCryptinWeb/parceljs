@@ -6,4 +6,3 @@ describe('sayHello', () => {
         expect(sayHello(userData)).toBe(`Hi ${userData.firstName} ${userData.lastName}`)
     })
 })
-

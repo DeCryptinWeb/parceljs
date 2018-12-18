@@ -3,6 +3,7 @@
   "plugins": {
     "autoprefixer": true,
     "postcss-custom-properties": {},
-    "postcss-nested": {}
+    "postcss-nested": {},
+    "postcss-import": {}
   }
 }
