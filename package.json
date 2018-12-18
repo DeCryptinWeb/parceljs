@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "parcel --no-hmr --no-cache ./src/index.ts ./src/css/bundle*.pcss",
+    "dev": "parcel --no-hmr --no-cache ./src/js/index.ts ./src/css/bundle*.pcss",
     "build": "parcel build ./src/index.ts ./src/css/bundle*.pcss",
     "start": "node server.js"
   },
