@@ -9,6 +9,10 @@ app.get('/dist/index.js', function (req, res) {
     res.sendFile(__dirname + '/dist/index.js')
   })
 
+  app.get('/index.map', function (req, res) {
+    res.sendFile(__dirname + '/dist/index.map')
+  })
+
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log('App running on port 3000!')
 })

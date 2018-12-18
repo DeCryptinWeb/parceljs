@@ -1,6 +1,3 @@
-import {some} from './mod'
+import {sayHello} from './module'
 
-console.log("log coming from index.js")
-
-some({first: 2, second: "string"})
- 
+console.log(sayHello({firstName: 'John', lastName: 'Doe'}))

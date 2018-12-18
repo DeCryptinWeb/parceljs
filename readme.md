@@ -2,6 +2,8 @@
 - [ ] Javascript
     - [x] Bundles
     - [ ] Source Maps
+        - [x] Make Source Maps available
+        - [ ] Debugging ES Modules imports is possible 
     - [x] ES
     - [x] Typescript
     - [x] Unit Testing Library (Jest)
@@ -12,10 +14,10 @@
     - [x] 1 Bundle per Portal
     - [ ] CSS Variables
         - [ ] Bug: cross-file css variables are not working by using postcss-css-variables (variables undefined) or postcss-preset-env (variables cached wrong)
-- [ ] Code Fromatter like Prettuier or StandardJS
+- [ ] Code Fromatter like Prettier or StandardJS
 - [ ] Git Hooks
-        - [ ] Avoid linter errors
-        - [ ] Avoid failed tests
+    - [ ] Avoid linter errors
+    - [ ] Avoid failed tests
 
 ### Notes
 parcel flags:

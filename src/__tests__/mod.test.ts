@@ -1,6 +1,9 @@
-import {sayHello} from '../mod'
+import {sayHello} from '../module'
 
-test('should return the correct message', () => {
-    const userData = {firstName: 'Ivan', lastName: 'Viñas'}
-    expect(sayHello(userData)).toBe(`Hi ${userData.firstName} ${userData.lastName}`)
+describe('sayHello', () => {
+    test('should return the correct message', () => {
+        const userData = {firstName: 'John', lastName: 'Doe'}
+        expect(sayHello(userData)).toBe(`Hi ${userData.firstName} ${userData.lastName}`)
+    })
 })
+
