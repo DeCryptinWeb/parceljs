@@ -1,4 +1,4 @@
-import {sayHello} from '../module'
+import {sayHello} from '../js/module'
 
 describe('sayHello', () => {
     test('should return the correct message', () => {
