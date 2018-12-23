@@ -3,7 +3,7 @@
     - [x] Bundles
     - [ ] Source Maps
         - [x] Make Source Maps available
-        - [ ] Debugging ES Modules imports is possible 
+        - [ ] Debugging ES Modules imports is possible => https://github.com/parcel-bundler/parcel/issues/2439
     - [x] ES
     - [x] Typescript
     - [x] Unit Testing Library (Jest)
@@ -13,7 +13,7 @@
     - [x] Nesting
     - [x] 1 Bundle per Portal
     - [ ] CSS Variables
-        - [ ] Bug: cross-file css variables are not working by using postcss-css-variables (variables undefined) or postcss-preset-env (variables cached wrong)
+        - [ ] Bug: cross-file css variables are not working by using postcss-css-variables (variables undefined) or postcss-preset-env (variables cached wrong) => https://github.com/parcel-bundler/parcel/issues/2454
 - [ ] Code Fromatter like Prettier or StandardJS
 - [ ] Git Hooks
     - [ ] Avoid linter errors
