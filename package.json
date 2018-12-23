@@ -7,6 +7,7 @@
     "test": "jest",
     "dev": "parcel --no-hmr --no-cache ./src/js/index.ts ./src/css/bundle*.pcss",
     "dev-js": "parcel --no-hmr ./src/js/index.ts",
+    "dev-css": "parcel --no-hmr ./src/css/bundle*.pcss",
     "build": "parcel build ./src/index.ts ./src/css/bundle*.pcss",
     "start": "node server.js"
   },
@@ -15,7 +16,7 @@
   "dependencies": {
     "autoprefixer": "^9.4.3",
     "express": "^4.16.4",
-    "parcel": "^1.10.3",
+    "parcel": "1.11.0",
     "parcel-bundler": "^1.10.3",
     "postcss-custom-properties": "^8.0.9",
     "postcss-import": "^12.0.1",
